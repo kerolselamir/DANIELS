@@ -1,0 +1,133 @@
+@media screen and (max-width: 700px)
+ {
+    /* home */
+.home-Caption h3 
+{
+ font-weight: 700;
+}
+.home-Caption h4 
+{
+font-size: 30px;
+}
+.home-Caption h4::after
+{
+font-size:40px;
+font-weight:250
+}
+ /* about */
+.about-left img
+{
+width: 92%;
+margin:auto;
+}
+.about .container
+{
+width: 100%;
+} 
+/* blog */
+.blog .container
+{
+    width:100%;
+}
+.blog-1,.blog-2,.blog-3,.blog-4,.blog-5
+{
+    width: 60%;
+    background-color: red;
+}
+.blog-large
+{
+    display:none
+}
+
+ }
+
+@media screen and (min-width:700px) and (max-width: 992px)
+ {
+
+/* about */
+.about-left img
+{
+width: 92%;
+margin:auto;
+}
+.about .container
+{
+width: 100%;
+} 
+/* blog */
+.blog
+{
+    display: none;
+}
+ }
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) 
+{
+.blog
+{
+    display:none
+}
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1515px)
+ {
+    .blog 
+    {
+        display: none;
+    }
+ }
+
+
+ @media screen and (min-width:1515px) {
+    /* about */
+.about .container
+{
+width: 70%;
+} 
+/* services */
+.services .container
+{
+width: 70%;
+} 
+/* slider */
+.slider .container
+{
+    width: 70%;
+}
+/* nums */
+.nums .container
+{
+    width: 80%;
+}
+/* blog */
+.blog .container
+{
+    width: 70%;
+}
+.blog{
+    display: none;
+}
+/* footer */
+.footer .container
+{
+    width: 60%;
+
+}
+
+
+}
+
+
+             
+
+    
+
+
+
+
+           
